@@ -1,6 +1,6 @@
 # Some DateTime Utilities
 
-> Please use the [ECMAScript proposal](https://tc39.es/proposal-temporal/docs/index.html) instead of this. It was released as I was working on this so some of it is inspired by it. Just use that instead. 
+> Please use the [ECMAScript proposal](https://tc39.es/proposal-temporal/docs/index.html) instead of this. It was released as I was working on this. It has a lot of the same idea's but a better implementation and more standard. 
 
 `Core functionality is from Vercel's _ms_ library`
 
