@@ -1,12 +1,10 @@
-const { ms, sec } = require('./UnixTime');
-
-const l = (data) => console.log(data);
-
-l`Checking to see ms eq sec x 1000`;
-
-const one = ms(ms(ms('-60m')));
-const two = ms(ms(sec('30')));
-
-console.log(one, two);
-
-l`Check to see if the two have`;
+"use strict";
+exports.__esModule = true;
+var Time_1 = require("./Time");
+exports.Time = Time_1.Time;
+var UnixTime_1 = require("./UnixTime");
+var Unix = {
+    ms: UnixTime_1.ms,
+    sec: UnixTime_1.sec
+};
+exports.Unix = Unix;
